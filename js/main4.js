@@ -29,7 +29,7 @@ class Enemy4 {
     }
 
     update() {
-        if(gameFrame % this.interval === 0){
+        if(gameFrame4 % this.interval === 0){
             this.newX= Math.random() * (CANVAS4.width - this.width);
             this.newY= Math.random() * (CANVAS4.height - this.height);
         }
