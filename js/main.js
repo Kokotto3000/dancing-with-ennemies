@@ -23,7 +23,7 @@ let gameFrame= 0;
 class Enemy {
     constructor(){
         this.image= new Image();
-        this.image.src= "../img/enemy1.png";                
+        this.image.src= "https://kokotto3000.github.io/dancing-with-ennemies/img/enemy1.png";                
         // this.speed= Math.random() * 4 - 2; //nombre entre -2 et 2)
         this.spriteWidth= 293;
         this.spriteHeight= 155;
